@@ -1,0 +1,171 @@
+.formBox{
+    background-color: white;
+    margin-left: 30%;
+    vertical-align: middle;
+    text-align: center;
+    width: 40%;
+    margin-top: 1px;
+    padding: 20px;
+    height: 20%;
+    margin-bottom: 1%;
+}
+.formBox  h1{
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    font-size: 28px;
+}
+.inputBox{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.inputBox .inputText{
+    position: absolute;
+    font-size: 20px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+    font-family:  Helvetica
+}
+.inputBox .input{
+    position: relative;
+    width: 70%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+    transform: translateY(-30px);
+    font-size: 12px;
+    opacity: 1;
+    color: #00bcd4;
+
+}
+
+textarea{
+    height: 100px !important;
+}
+
+
+#bodyLogin {
+    height: 100%;
+    background-color: #a3c2c2;
+    
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #ffa31a;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 90px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 10px;
+    border-color: white;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 90%;
+    -webkit-border-radius: 60%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+
+.form-signin #inputCPF,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 35px;
+    font-size: 16px;
+}
+
+.form-signin input[type=cpf],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: #ffff00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: #29a329;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    color: white;
+}
+
+.btn.btn-default:hover {
+    color: white;
+    background-color: #669999;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: #009933;
+}
+
+#historico {
+    margin-top: 5%;
+}
+
+
